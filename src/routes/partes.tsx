@@ -47,9 +47,9 @@ function Partes() {
 
     return (
       <>
-        <div className="flex flex-col justify-center align-middle ">
+        <div className="flex flex-col justify-center align-middle p-5 fixed top-0 right-0 left-0 mx-auto mb-12 bg-white">
           <h2
-            className="text-center tracking-wider text-2xl uppercase text-[#d7a3ab]"
+            className="text-center tracking-wider sm:text-2xl text-lg uppercase text-[#d7a3ab]"
             id="poppins-text"
           >
             Pergunta 2
@@ -61,7 +61,7 @@ function Partes() {
             Alimentares ou de produtos cosméticos
           </p>
         </div>
-        <div className=" w-full bg-transparent sm:h-full mt-10 mb-5 overflow-hidden justify-center flex flex-row mx-auto align-middle gap-4">
+        <div className=" w-full bg-transparent sm:h-full mt-40 mb-5 overflow-hidden justify-center flex flex-row mx-auto align-middle gap-4">
           {options.map((option) => {
             return (
               <div

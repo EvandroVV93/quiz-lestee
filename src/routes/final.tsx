@@ -71,16 +71,19 @@ export default function FinalQuiz({}) {
 
   return (
     <section>
-      <div className="flex flex-col justify-center align-middle">
+      <div className="flex flex-col justify-center align-middle  p-5 fixed top-0 right-0 left-0 mx-auto mb-12 bg-white">
         <h2
           className="text-center text-2xl uppercase text-[#d7a3ab] font-bold"
           id="poppins-text"
         ></h2>
-        <h1 className="text-2xl my-5 text-[#384967]" id="playfair-text">
+        <h1
+          className="sm:text-2xl text-lg my-5 text-[#384967]"
+          id="playfair-text"
+        >
           Este é o tratamento que nós indicamos especialmente para você:
         </h1>
       </div>
-      <div className="w-full bg-transparent sm:h-full mt-10 mb-5 overflow-y-auto flex md:flex-row md:flex-wrap flex-col flex-nowrap mx-auto items-center md:items-stretch justify-center gap-12">
+      <div className="w-full bg-transparent sm:h-full mt-40 mb-5 overflow-y-auto flex md:flex-row md:flex-wrap flex-col flex-nowrap mx-auto items-center md:items-stretch justify-center gap-12">
         {tratamentoProducts?.map((product: any) => {
           return (
             <div

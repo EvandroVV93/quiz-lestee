@@ -39,18 +39,21 @@ function Start() {
 
   return (
     <>
-      <div className="flex flex-col justify-center align-middle">
+      <div className="flex flex-col justify-center align-middle p-5 fixed top-0 right-0 left-0 mx-auto mb-12 bg-white">
         <h2
-          className="text-center tracking-wider text-2xl uppercase text-[#d7a3ab] "
+          className="text-center tracking-wider sm:text-2xl text-lg uppercase text-[#d7a3ab] "
           id="poppins-text"
         >
           Pergunta 1
         </h2>
-        <h1 className="text-4xl my-5 text-[#384967]" id="playfair-text">
+        <h1
+          className="sm:text-4xl text-xl my-5 text-[#384967]"
+          id="playfair-text"
+        >
           QUAL REGIÃO VOCÊ GOSTARIA DE CUIDAR?
         </h1>
       </div>
-      <div className="w-full bg-transparent mt-10 mb-5 overflow-auto flex flex-row flex-wrap mx-auto justify-center gap-4">
+      <div className="w-full bg-transparent mt-40 mb-5 overflow-auto flex flex-row flex-wrap mx-auto justify-center gap-4">
         {options.map((option) => {
           return (
             <div
