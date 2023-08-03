@@ -83,7 +83,7 @@ export default function FinalQuiz({}) {
           Este é o tratamento que nós indicamos especialmente para você:
         </h1>
       </div>
-      <div className="w-full bg-transparent sm:h-full mt-40 mb-5 overflow-y-auto flex md:flex-row md:flex-wrap flex-col flex-nowrap mx-auto items-center md:items-stretch justify-center gap-12">
+      <div className="w-full bg-transparent sm:h-full mt-40 sm:mt-20 mb-5 overflow-y-auto flex md:flex-row md:flex-wrap flex-col flex-nowrap mx-auto items-center md:items-stretch justify-center gap-12">
         {tratamentoProducts?.map((product: any) => {
           return (
             <div
