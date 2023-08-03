@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#playfair-text {
+  font-family: "Playfair Display", serif;
+}
+
+#poppins-text {
+  font-family: "Poppins", sans-serif;
+}
