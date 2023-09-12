@@ -115,7 +115,7 @@ function Partes() {
           Algo em você que gostaria de melhorar
           </p>
         </div>
-        <div className="w-full bg-transparent mt-10 mb-5 overflow-auto grid sm:grid-cols-3 grid-cols-1 mx-auto justify-items-center gap-4">
+        <div className="max-w-4xl bg-transparent mt-10 mb-5 overflow-auto grid sm:grid-cols-3 grid-cols-1 mx-auto justify-items-center space-x-0 gap-4 place-items-center">
           {quizOptions
             .filter((item) => item.parte === parte)
             .map((option) => {

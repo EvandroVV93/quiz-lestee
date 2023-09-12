@@ -74,7 +74,7 @@ export default function Submit() {
           Falta pouco…
         </h1>
       </div>
-      <div className="w-80 bg-transparent sm:h-full  mt-5 mb-5 overflow-y-auto grid sm:grid-cols-1 mx-auto align-middle">
+      <div className="sm:w-80 w-full bg-transparent sm:h-full  mt-5 mb-5 overflow-y-auto grid sm:grid-cols-1 mx-auto align-middle">
         <div className="flex flex-col justify-center align-middle">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="flex flex-col gap-1 mb-5">
