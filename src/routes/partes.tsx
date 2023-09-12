@@ -91,7 +91,7 @@ function Partes() {
             id="poppins-text"
             className="bg-[#D7A3AB] text-white text-md py-3 px-6 rounded-[2px] uppercase w-1/3 mx-auto cursor-pointer"
           >
-            Anterior
+            Voltar
           </button>
         </div>
       </>
@@ -101,14 +101,21 @@ function Partes() {
   if (selected) {
     return (
       <>
-        <div className="flex flex-col justify-center align-middle invisible">
-          <h2
-            className="text-center text-2xl uppercase text-[#d7a3ab] font-bold"
+        <div className="flex flex-col justify-center align-middle">
+        <h2
+            className="text-center tracking-wider sm:text-2xl text-lg uppercase text-[#d7a3ab]"
             id="poppins-text"
-          ></h2>
-          <h1 className="text-4xl my-5 text-[#384967]" id="playfair-text"></h1>
+          >
+            Pergunta 3
+          </h2>
+          <h1 className="text-4xl my-5 text-[#384967] uppercase" id="playfair-text">
+          O que te incomoda hoje?
+          </h1>
+          <p className="text-[#384967]" id="poppins-text">
+          Algo em você que gostaria de melhorar
+          </p>
         </div>
-        <div className="w-full bg-transparent  mt-10 mb-5 overflow-auto flex flex-row mx-auto flex-wrap justify-center gap-4">
+        <div className="w-full bg-transparent mt-10 mb-5 overflow-auto grid sm:grid-cols-3 grid-cols-1 mx-auto justify-items-center">
           {quizOptions
             .filter((item) => item.parte === parte)
             .map((option) => {
@@ -143,7 +150,7 @@ function Partes() {
             id="poppins-text"
             className="bg-[#D7A3AB] text-white text-md py-3 px-6 rounded-[2px] uppercase w-1/3 mx-auto cursor-pointer"
           >
-            Anterior
+            Voltar
           </button>
         </div>
       </>
