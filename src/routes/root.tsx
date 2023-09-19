@@ -9,25 +9,25 @@ function Start() {
     {
       area: "Rosto",
       imagem:
-        "https://lh3.googleusercontent.com/drive-viewer/AITFw-wkSdQNhj6oTfsfka034YInwWui_ySWGDLAICaextKO2lNkbY3IOlfEMFACsuqOzhKQZZvPzq07vD6fFIW7fz_ZMfv7vg=s1600",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695131107/retrato-natural-de-mulher-jovem_eetkms.jpg",
       link: "/opcoes/rosto",
     },
     {
       area: "Corpo",
       imagem:
-        "https://lh3.googleusercontent.com/drive-viewer/AITFw-yBQkSjEzQLuZF1SCTKRqza6_hVE0L9Ox93jY6EEfVXrzf5rLyma_qbH2E5f9Fd6UkZeAHK2PT8lTn63i7ga9trm2Pplw=s1600",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695131497/close-up-abdomen-massage-concept_kuhmfr.jpg",
       link: "/opcoes/corpo",
     },
     {
       area: "Pelos",
       imagem:
-        "https://lh3.googleusercontent.com/drive-viewer/AITFw-wxKmALovU3pGBLTYB0jQIVeZXw0nhAVCCqe-0uYr4uMiv4kW7rg1ZO2F6w4q_MCSxmZJ_PizeJ8eiXqxReLN6jkiWOjA=s1600",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695131777/bela-jovem-deitada-no-tecido-de-la_ed8ycq.jpg",
       link: "/opcoes/pelos",
     },
     {
       area: "Cabelos",
       imagem:
-        "https://lh3.googleusercontent.com/drive-viewer/AITFw-w9BzMzFafuRNvY_jqh3tUjQJBdOjsLot913fSDlFx7HPqUqkMPxYDbnV0q6kACNRIY-1hvUQHcDsvCypXd4fHs_7CTtQ=s1600",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695130994/adult-male-having-balding-problems_g4wg1z.jpg",
       link: "/opcoes/cabelos",
     },
   ];
