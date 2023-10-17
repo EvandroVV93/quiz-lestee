@@ -46,7 +46,7 @@ const AnimationLayout = () => {
 };
 
 const client = new ApolloClient({
-  uri: "http://54.187.251.93/graphql",
+  uri: "https://lestee.com.br/graphql",
   cache: new InMemoryCache(),
 });
 
