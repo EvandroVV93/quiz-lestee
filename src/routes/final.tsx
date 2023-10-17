@@ -116,7 +116,7 @@ export default function FinalQuiz({}) {
               </div>
               <div>
                 <a
-                  href={`http://54.187.251.93/?add-to-cart=${product?.databaseId}&quantity=1`}
+                  href={`https://lestee.com.br/?add-to-cart=${product?.databaseId}&quantity=1`}
                   target="_top"
                 >
                   <button
