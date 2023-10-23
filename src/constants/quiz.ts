@@ -20,7 +20,7 @@ export const quizOptions: IQuizOptions[] = [
     parte: "rosto",
     desc: "Cravos e espinhas inflamadas",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131066/retrato-de-mulher-retocado-antes-e-depois_1_fbw9fe.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/retrato-de-mulher-retocado-antes-e-depois_1_fbw9fe.jpg",
     link: "/rosto/acne",
   },
   {
@@ -29,7 +29,7 @@ export const quizOptions: IQuizOptions[] = [
     value: "oleosidade",
     desc: "Excesso de brilho e poros dilatados",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131107/retrato-natural-de-mulher-jovem_eetkms.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/retrato-natural-de-mulher-jovem_eetkms.jpg",
     link: "/rosto/oleosidade",
   },
   {
@@ -38,7 +38,7 @@ export const quizOptions: IQuizOptions[] = [
     value: "manchas",
     desc: "Acnes ou lesões",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131256/homem-de-vista-lateral-com-problemas-de-pele_1_yngf9o.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/homem-de-vista-lateral-com-problemas-de-pele_1_yngf9o.jpg",
     link: "/rosto/manchas",
   },
   {
@@ -47,7 +47,7 @@ export const quizOptions: IQuizOptions[] = [
     value: "melasma",
     desc: "Manchas escuras",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131290/portrait-british-woman_gmkfh5.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/portrait-british-woman_gmkfh5.jpg",
     link: "/rosto/melasma",
   },
   {
@@ -56,7 +56,7 @@ export const quizOptions: IQuizOptions[] = [
     value: "ressecamento",
     desc: "Pele seca, descamação",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131418/woman-dealing-with-rosacea-skin-condition-face_pgjfzj.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/woman-dealing-with-rosacea-skin-condition-face_pgjfzj.jpg",
     link: "/rosto/ressecamento",
   },
   {
@@ -65,7 +65,7 @@ export const quizOptions: IQuizOptions[] = [
     value: "linhas",
     desc: "Envelhecimento, flacidez",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131461/before-after-portrait-mature-woman-retouched_lzpupk.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/before-after-portrait-mature-woman-retouched_lzpupk.jpg",
     link: "/rosto/linhas",
   },
   {
@@ -74,7 +74,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'medidas',
     desc: "Gordura localizada, culote, pochete",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/q_60/v1695131497/close-up-abdomen-massage-concept_kuhmfr.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/close-up-abdomen-massage-concept_kuhmfr.jpg",
     link: "/corpo/medidas",
   },
   {
@@ -83,7 +83,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'liquido',
     desc: "Inchaço e celulite",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131522/close-up-hands-making-heart-gesture_om1teb.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/close-up-hands-making-heart-gesture_om1teb.jpg",
     link: "/corpo/liquido",
   },
   {
@@ -92,7 +92,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'manchas',
     desc: "Lesões de acne e manchas",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131598/young-woman-having-skin-allergy_dbcx6z.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/young-woman-having-skin-allergy_dbcx6z.jpg",
     link: "/corpo/manchas",
   },
   {
@@ -101,7 +101,7 @@ export const quizOptions: IQuizOptions[] = [
     desc: "Flacidez e Rugas do Sono",
     value: 'sinais',
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131626/young-woman-hand-her-body_jccnnk.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/young-woman-hand-her-body_jccnnk.jpg",
     link: "/corpo/sinais",
   },
   {
@@ -110,7 +110,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'acne',
     desc: "Cravos e espinhas",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131696/young-woman-showing-acne-her-shoulders_mhotmy.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/young-woman-showing-acne-her-shoulders_mhotmy.jpg",
     link: "/corpo/acne",
   },
   {
@@ -119,7 +119,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'estresse',
     desc: "Tensão e irritabilidade",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131720/beauty-spa_ddncnn.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/beauty-spa_ddncnn.jpg",
     link: "/corpo/estresse",
   },
   {
@@ -128,7 +128,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'remocao',
     desc: "Fim dos pelos indesejados",
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131777/bela-jovem-deitada-no-tecido-de-la_ed8ycq.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/bela-jovem-deitada-no-tecido-de-la_ed8ycq.jpg",
     link: '/pelos/remocao'
   },
   {
@@ -137,7 +137,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'foliculite',
     desc: 'Inflamação e pelos encravados',
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695132056/close-up-de-shirtless-restolho-homem-contra-fundo-branco_xwvbt9.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/close-up-de-shirtless-restolho-homem-contra-fundo-branco_xwvbt9.jpg",
     link: '/pelos/foliculite'
   },
   {
@@ -146,7 +146,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'manchas',
     desc: 'Escurecidas por lâminas ou Cera',
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131928/linda-mulher-caucasiana-com-toalha-contra-um-fundo-branco_uevcqv.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/linda-mulher-caucasiana-com-toalha-contra-um-fundo-branco_uevcqv.jpg",
     link: '/pelos/manchas'
   },
   {
@@ -155,7 +155,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'alopecia',
     desc: 'Falhas no couro cabeludo',
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695130868/woman-getting-hair-loss-treatment-clinic_mf6xgb.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/woman-getting-hair-loss-treatment-clinic_mf6xgb.jpg",
     link: '/cabelos/alopecia'
   },
   {
@@ -164,7 +164,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'calvicie',
     desc: 'Perda permanente de cabelo',
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695130994/adult-male-having-balding-problems_g4wg1z.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/adult-male-having-balding-problems_g4wg1z.jpg",
     link: '/cabelos/calvicie'
   },
   {
@@ -173,7 +173,7 @@ export const quizOptions: IQuizOptions[] = [
     value: 'queda',
     desc: 'Perda excessiva de fios',
     imagem:
-      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_60/v1695131025/mulher-de-close-up-com-emaranhados_ynjzlp.jpg",
+      "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/mulher-de-close-up-com-emaranhados_ynjzlp.jpg",
     link: '/cabelos/queda'
   }
 ];
