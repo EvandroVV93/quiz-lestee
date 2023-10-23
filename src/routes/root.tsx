@@ -9,25 +9,25 @@ function Start() {
     {
       area: "Rosto",
       imagem:
-        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695131107/retrato-natural-de-mulher-jovem_eetkms.jpg",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/retrato-natural-de-mulher-jovem_eetkms.jpg",
       link: "/opcoes/rosto",
     },
     {
       area: "Corpo",
       imagem:
-        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695131497/close-up-abdomen-massage-concept_kuhmfr.jpg",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/close-up-abdomen-massage-concept_kuhmfr.jpg",
       link: "/opcoes/corpo",
     },
     {
       area: "Pelos",
       imagem:
-        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695131777/bela-jovem-deitada-no-tecido-de-la_ed8ycq.jpg",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/bela-jovem-deitada-no-tecido-de-la_ed8ycq.jpg",
       link: "/opcoes/pelos",
     },
     {
       area: "Cabelos",
       imagem:
-        "https://res.cloudinary.com/dx2t8se3j/image/upload/v1695130994/adult-male-having-balding-problems_g4wg1z.jpg",
+        "https://res.cloudinary.com/dx2t8se3j/image/upload/q_50/adult-male-having-balding-problems_g4wg1z.jpg",
       link: "/opcoes/cabelos",
     },
   ];
